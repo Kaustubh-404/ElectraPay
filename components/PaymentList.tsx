@@ -401,7 +401,7 @@ export function PaymentList({ type }: { type: "organization" | "employee" }) {
             <div>
               <div className="text-sm text-zinc-400">Contract Balance</div>
               <div className="text-xl font-bold bg-gradient-to-r from-white to-emerald-300 bg-clip-text text-transparent">
-                {formatEther(contractBalance || BigInt(0))} ETH
+                {formatEther(contractBalance || BigInt(0))} ETN
               </div>
             </div>
           </div>
