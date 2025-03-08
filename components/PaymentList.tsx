@@ -102,7 +102,7 @@ export function PaymentList({ type }: { type: "organization" | "employee" }) {
 
       // First, get contract balance
       const balance = await fetchContractBalance();
-      console.log(`Contract balance: ${formatEther(balance)} ETH`);
+      console.log(`Contract balance: ${formatEther(balance)} ETN`);
 
       // Get active payment IDs
       const ids = (await publicClient.readContract({
@@ -589,7 +589,7 @@ export function PaymentList({ type }: { type: "organization" | "employee" }) {
                     <div className="bg-black/20 p-3 rounded-lg border border-zinc-700/50">
                       <div className="flex items-center space-x-2">
                         <div className="text-2xl font-bold bg-gradient-to-r from-white to-emerald-300 bg-clip-text text-transparent">
-                          {formatEther(payment.amount)} ETH
+                          {formatEther(payment.amount)} ETN
                         </div>
                       </div>
                       <div className="flex items-center mt-1 text-xs text-zinc-500">

@@ -161,7 +161,7 @@ export function PaymentForm() {
           <div className="space-y-2.5">
             <label className="block text-sm font-medium text-zinc-300 flex items-center gap-1.5">
               <DollarSign className="h-4 w-4 text-emerald-500" />
-              Amount (ETH)
+              Amount (ETN)
             </label>
             <div className="relative group">
               <input
