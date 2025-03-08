@@ -174,7 +174,7 @@ export function Header() {
                 onClick={() => {
                   if (typeof window !== 'undefined') {
                     sessionStorage.removeItem("user");
-                    window.location.href = "/auth/employee";
+                    window.location.href = "/";
                   }
                 }}
                 className="text-sm px-4 py-2 rounded-lg border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/10 transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/10"
