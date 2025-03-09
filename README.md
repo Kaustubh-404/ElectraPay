@@ -47,8 +47,8 @@ Follow these steps to get ElectraPay up and running:
 1.  **Clone the repository:**
 
     ```
-    git clone <your_repo_url>
-    cd <your_repo_directory>
+    git clone https://github.com/Kaustubh-404/ElectraPay.git
+    cd Electrapay
     ```
 
 2.  **Check `.env.example`:**
